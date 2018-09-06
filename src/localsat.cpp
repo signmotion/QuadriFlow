@@ -7,12 +7,11 @@
 #include "dedge.hpp"
 #include "field-math.hpp"
 
-#include <Eigen/Core>
-
 #include <deque>
 #include <memory>
 #include <utility>
 #include <vector>
+
 
 const int max_depth = 0;
 

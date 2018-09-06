@@ -10,6 +10,7 @@
 
 #include <fstream>
 #include <unordered_map>
+#include <stdint.h>
 
 inline std::vector<std::string> &str_tokenize(const std::string &s, char delim, std::vector<std::string> &elems, bool include_empty = false) {
 	std::stringstream ss(s);

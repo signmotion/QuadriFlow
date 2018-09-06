@@ -9,7 +9,6 @@
 
 #include "dset.hpp"
 
-#include <Eigen/Sparse>
 #include <fstream>
 #include <list>
 #include <map>

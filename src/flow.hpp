@@ -1,7 +1,6 @@
 #ifndef FLOW_H_
 #define FLOW_H_
 
-#include <Eigen/Core>
 #include <list>
 #include <map>
 #include <vector>

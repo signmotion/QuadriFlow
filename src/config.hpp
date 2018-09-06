@@ -7,6 +7,16 @@
 // #define WITH_CUDA
 // #define WITH_TBB
 
+
+#if defined(_MSC_VER)
+#define snprintf _snprintf
+#endif
+
+/// \see Eigen/CoreEvaluators.h
+#define EIGEN_COMP_MSVC 1
+#include <Eigen/Eigen>
+
+
 const int GRAIN_SIZE = 1024;
 
 #ifdef LOG_OUTPUT
@@ -28,4 +38,5 @@ unsigned long long inline GetCurrentTime64() {
     using namespace std::chrono;
     return duration_cast<milliseconds>(steady_clock::now().time_since_epoch()).count();
 }
+
 #endif

@@ -1,7 +1,7 @@
 #ifndef __LOCAL_SAT_H
 #define __LOCAL_SAT_H
 
-#include <Eigen/Core>
+#include "config.hpp"
 #include <vector>
 
 using namespace Eigen;

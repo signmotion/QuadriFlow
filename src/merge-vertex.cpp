@@ -1,5 +1,5 @@
+#include "config.hpp"
 #include "merge-vertex.hpp"
-
 #include "compare-key.hpp"
 
 #include <map>

@@ -1,11 +1,14 @@
 #ifndef FIELD_MATH_H_
 #define FIELD_MATH_H_
 
-#include <Eigen/Core>
-#include <Eigen/Dense>
+#define _USE_MATH_DEFINES
+
+#include "config.hpp"
 #include <algorithm>
 #include <glm/glm.hpp>
 #include <vector>
+#include <math.h>
+
 using namespace Eigen;
 
 struct DEdge

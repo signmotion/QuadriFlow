@@ -1,8 +1,7 @@
 #ifndef DEDGE_H_
 #define DEDGE_H_
 
-#include <Eigen/Core>
-#include <Eigen/Dense>
+#include "config.hpp"
 #include <vector>
 
 using namespace Eigen;

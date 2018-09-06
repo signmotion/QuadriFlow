@@ -1,5 +1,4 @@
-#include <Eigen/Core>
-#include <Eigen/Dense>
+#include "config.hpp"
 #include "parametrizer.hpp"
 using namespace Eigen;
 

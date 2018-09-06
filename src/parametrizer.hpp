@@ -6,8 +6,6 @@
 #include <tbb/tbb.h>
 #endif
 
-#include <Eigen/Core>
-#include <Eigen/Dense>
 #include <list>
 #include <map>
 #include <set>

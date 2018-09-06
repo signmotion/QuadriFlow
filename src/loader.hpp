@@ -1,7 +1,7 @@
 #ifndef __LOADER_H
 #define __LOADER_H
 
-#include <Eigen/Core>
+#include "config.hpp"
 #include <vector>
 
 using namespace Eigen;

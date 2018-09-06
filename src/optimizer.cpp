@@ -1,6 +1,5 @@
 #include "optimizer.hpp"
 
-#include <Eigen/Sparse>
 #include <cmath>
 #include <fstream>
 #include <iostream>
